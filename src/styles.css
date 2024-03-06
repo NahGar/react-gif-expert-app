@@ -61,3 +61,16 @@
   .card img {
     width: 100%;
   }
+
+  .grid-Container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-rows: 300px;
+    gap: 10px;
+  }
+
+  .imgResult {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
