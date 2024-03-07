@@ -6,7 +6,7 @@ let contador = 1;
 
 export const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState([ 'Goku' ]);
+    const [categories, setCategories] = useState([]);
 
     
     const onAddCategory = ( newCategory ) => {
