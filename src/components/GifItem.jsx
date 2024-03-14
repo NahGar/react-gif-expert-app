@@ -15,7 +15,7 @@ GifItem.propTypes = {
     url: PropTypes.string.isRequired,
 }
   
-GifItem.defaultProps = {
+//GifItem.defaultProps = {
     //title: 'Falta indicar el título',
     //url: 'Falta url',
-}
+//}
