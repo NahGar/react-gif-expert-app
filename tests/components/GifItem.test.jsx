@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
 import { GifItem } from "../../src/components/GifItem";
 
-describe('Pruebas en <GiftItem />', () => {
+describe('Pruebas en <GifItem />', () => {
     
     const title = 'Título';
     const url = 'https://cualquier/url.jpg';
